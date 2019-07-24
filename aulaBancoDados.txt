@@ -1,0 +1,12 @@
+python -m venv ambiente """Criar ambiente virtual"""
+ambiente\Scripts>activate """Ativar ambiente"""
+pip install django """instalar django"""
+django-admin startproject servidor """Criar novo projeto django "servidor" é o nome do projeto""
+manage.py runserver """rodar servidor, ctrl+c interromper servidor"""
+manage.py startapp app
+add/setting.py/installed_apps/'app'
+app/models.py{
+    criar classe
+}
+python manage.py makemigrations
+python manage.py migrate
